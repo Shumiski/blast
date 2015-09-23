@@ -384,23 +384,16 @@ $comingText = $_POST["comingText"];
 					</tr>
 					<!--bestofrest--><!--coming-->
 					<tr>
-						<td style="background:#fff;" height="404">
+						<td style="background:#fff;" height="150" valign="top">
 						<table height="255" border="0" cellpadding="0" cellspacing="0" style="text-align: center;">
 							<tbody>
 								<tr>
 									<td class="" width="40">&nbsp;</td>
-									<td bgcolor="#f7f7f7" width="520" style="text-align:center; margin:20px 0; position:relative;">
+									<td width="520" style="text-align:center; margin:20px 0; position:relative;">
 									<table style="text-align:center;">
 										<tbody>
 											<tr>
-												<td class="" valign="bottom" width="480" height="110"><img alt="Coming Up Next Week" src="html_template-assets/g-coming.png" height="62" width="93"></td>
-                                            </tr>
-                                            <tr>				
-												<td class="" height="56" valign="top" style="text-align:center;">
-                                                    <p style="font-family:Arial; font-size:14px; font-weight:bold; color:#666"><?php echo $comingTitle ?></p>
-                                                    <p style="font-family:Arial; font-size:12px; color:#9c9c9c; display:relative; margin:20px 50px 40px 50px; line-height:18px; text-align:justify;"><?php echo $comingText ?></p>
-												
-												</td>
+                                                <a href="https://twitter.com/techbeaconcom" style="text-decoration:none; border:none;" target="_blank"><img src="html_template-assets/g-promo.png" width="520" height="170" alt="Follow us on Twitter"></a>
 											</tr>
 										</tbody>
 									</table>
@@ -418,17 +411,17 @@ $comingText = $_POST["comingText"];
 						<table align="center" border="0" cellpadding="0" cellspacing="0">
 							<tbody>
 								<tr style="display:block; position:relative; padding: 20px 0 1px 0;" width="500" align="center" valign="bottom">
-									<td class="" style="font-family:Arial; font-weight:bold; font-size:13px; color:#7f7f7f; text-transform:uppercase;" height="47">Become a contributor on TechBeacon</td>
+									<td class="" style="font-family:Arial; font-weight:bold; font-size:13px; color:#7f7f7f; text-transform:uppercase;" height="47">Get paid to be a contributor on TechBeacon</td>
 								</tr>
 								<tr width="">
-									<td class="" style="display:block; position:relative; padding: 0 0 20px 0; font-family:Arial; font-size:12px; color:#7f7f7f" align="center" width="500">Are you an expert? Join our exclusive contributor network today.</td>
+									<td class="" style="display:block; position:relative; padding: 0 0 20px 0; font-family:Arial; font-size:12px; color:#7f7f7f" align="center" width="500">Are you an expert? Get paid to write great content and share your knowledge.</td>
 								</tr>
 								<tr width="500">
 									<td align="center">
 									<table align="center" border="0" cellpadding="0" cellspacing="0">
 										<tbody>
 											<tr height="96" style="display:block; position:relative; padding: 0;">
-												<td class="" style="font-family:Arial; font-size:13px; font-weight:bold; color:#fff;" align="center" height="41" bgcolor="#3a9cd7" width="166"><a href="http://techbeacon.com/write" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; color:#ffffff" target="_blank">APPLY TODAY</a></td>
+												<td class="" style="font-family:Arial; font-size:13px; font-weight:bold; color:#fff;" align="center" height="41" bgcolor="#3a9cd7" width="166"><a href="http://techbeacon.com/write?utm_source=cionewsletter&utm_medium=email&utm_campaign=cio0815blast" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; color:#ffffff" target="_blank">APPLY TODAY</a></td>
 											</tr>
 										</tbody>
 									</table>
