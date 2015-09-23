@@ -1,7 +1,6 @@
 <?php 
 
 
-
 include_once('inc/SimpleImage.php');
 include_once('inc/simple_html_dom.php');
 
@@ -55,7 +54,7 @@ if ($validateThumbs == "True"){
 
 
 
-$featuredLinks = 3;
+$featuredLinks = 6;
 
 
 $featured01Link = $_POST["featuredLink01"];
@@ -73,6 +72,20 @@ $featured03Link = $_POST["featuredLink03"];
 $featured03Cat = featured('category', $featured03Link);
 $featured03Title = featured('title', $featured03Link);
 
+
+$featured04Link = $_POST["featuredLink04"];
+$featured04Cat = featured('category', $featured04Link);
+$featured04Title = featured('title', $featured04Link);
+
+
+$featured05Link = $_POST["featuredLink05"];
+$featured05Cat = featured('category', $featured05Link);
+$featured05Title = featured('title', $featured05Link);
+
+
+$featured06Link = $_POST["featuredLink06"];
+$featured06Cat = featured('category', $featured06Link);
+$featured06Title = featured('title', $featured06Link);
 
 
 
@@ -222,6 +235,24 @@ $comingText = $_POST["comingText"];
 												<td class="" width="177" height=""><a href="<?php echo $featured03Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured03Title ?></a></td>
 											</tr>
 											
+											<tr>
+												<td class="" width="40">&nbsp;</td>
+												<td class="" width="177"><a href="<?php echo $featured04Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb1", $featured04Link) ?>" style="display:block;" height="109" width="166"></a></td>
+												<td class="" width="177"><a href="<?php echo $featured05Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb1", $featured05Link) ?>" style="display:block;" height="109" width="166"></a></td>
+												<td class=""><a href="<?php echo $featured06Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb1", $featured06Link) ?>" style="display:block;" height="109" width="166"></a></td>
+											</tr>
+											<tr style="font-family:Arial; color: #3a9cd7; font-size: 11px; font-weight: 700;" height="42">
+												<td class="" width="40">&nbsp;</td>
+												<td class=""><a href="<?php echo $featured04Link ?>" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; color:#0096d6;" target="_blank"><?php echo $featured04Cat ?></a></td>
+												<td class=""><a href="<?php echo $featured05Link ?>" style="text-decoration:none; font-family:Arial, Helvetica, sans-serif; color:#0096d6;" target="_blank"><?php echo $featured05Cat ?></a></td>
+												<td class=""><a href="<?php echo $featured06Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif; color:#0096d6;" target="_blank"><?php echo $featured06Cat ?></a></td>
+											</tr>
+											<tr style="font-family:Arial; color: #767676; font-size: 13px; font-weight: 400;" valign="top">
+												<td class="" width="40">&nbsp;</td>
+												<td class="" width="177"><a href="<?php echo $featured04Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured04Title ?></a></td>
+												<td class="" width="177"><a href="<?php echo $featured05Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured05Title ?></a></td>
+												<td class="" width="177" height="90"><a href="<?php echo $featured06Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured06Title ?></a></td>
+											</tr>
 											
 											
 										</tbody>

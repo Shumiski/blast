@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<link rel="stylesheet" href="boilerplate.css">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+    <body>
+
+
+<form action="../index.php" method="post">
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <img id="image" src="img/logo.svg" class="image" />
+        <p id="text">FEATURED</p>
+        <p id="text1">LINKS</p>
+        
+        <label id="formgroup"><input name="featuredLink01" id="featuredLink01" type="text" value="Featured Link 1"></input>
+        </label>
+        
+        <label id="formgroup1"><input name="featuredLink02" id="featuredLink02" type="text" value="Featured Link 2"></input>
+        </label>
+        
+        <label id="formgroup2"><input name="featuredLink03" id="featuredLink03" type="text" value="Featured Link 3"></input>
+        </label>
+        
+        <label id="formgroup3a"><input name="featuredLink04" id="featuredLink04" type="text" value="Featured Link 4"></input>
+        </label>
+        
+        <label id="formgroup4a"><input name="featuredLink05" id="featuredLink05" type="text" value="Featured Link 5"></input>
+        </label>
+        
+        <label id="formgroup5a"><input name="featuredLink06" id="featuredLink06" type="text" value="Featured Link 6"></input>
+        </label>
+        
+        
+        
+        <p id="text2">FEATURED</p>
+        <p id="text3">ARTICLE</p>
+        
+        <label id="formgroup3"><input name="articleLink" id="articleLink" type="text" value="Link"></input>
+        </label>
+        
+        <label id="formgroup4"><input name="articleTitle" id="articleTitle" type="text" value="Witty"></input>
+        </label>
+        
+        <label id="formgroup5"><textarea name="articleText" id="articleText" >Text</textarea>
+        </label>
+        
+        
+        
+        <p id="text4">TRENDING</p>
+        <p id="text5">LINKS</p>
+        
+        <label id="formgroup6"><input name="trendingLink01" id="trendingLink01" type="text" value="Trending  Link 1"></input>
+        </label>
+        
+        <label id="formgroup7"><input name="trendingLink02" id="trendingLink02" type="text" value="Trending Link 2"></input>
+        </label>
+        
+        <label id="formgroup8"><input name="trendingLink03" id="trendingLink03" type="text" value="Trending Link 3"></input>
+        </label>
+        
+        
+        
+        <p id="text6">BEST OF THE REST</p>
+        <p id="text7">LINKS</p>
+        
+        <label id="formgroup9"><input name="bestLink01" id="bestLink01" type="text" value="Best of Link 1"></input>
+        </label>
+        
+        <label id="formgroup10"><input name="bestLink02" id="bestLink02" type="text" value="Best of Link 2"></input>
+        </label>
+        
+        <label id="formgroup11"><input name="bestLink03" id="bestLink03" type="text" value="Best of Link 3"></input>
+        </label>
+        
+        <label id="formgroup12"><input name="bestLink04" id="bestLink04" type="text" value="Best of Link 4"></input>
+        </label>
+        
+        <label id="formgroup13"><input name="bestLink05" id="bestLink05" type="text" value="Best of Link 5"></input>
+        </label>
+        
+        <label id="formgroup14"><input name="bestLink06" id="bestLink06" type="text" value="Best of Link 6"></input>
+        </label>
+        
+        
+        
+        <p id="text8">COMING UP</p>
+        <p id="text9">ARTICLE</p>
+        
+        <label id="formgroup15"><input name="comingTitle" id="comingTitle" type="text" value="Title"></input>
+        </label>
+        
+        <label id="formgroup16"><textarea name="comingText" id="comingText" >Text</textarea>
+        </label>
+        
+        <label id="formgroup17">
+            <p id="text10">Create Thumbs&#x3f;</p>
+            <select name="validateThumbs" id="validateThumbs" type="select"><option value="True">Yes</option><option value="False">No</option></select>
+        </label>
+        
+        <input id="input" type="submit" value="Submit"></input>
+    </div>
+</form>
+    
+    
+    
+    <script type="text/javascript">
+
+$('input').each(function() {
+    var default_value = this.value;
+    $(this).focus(function() {
+        if(this.value == default_value) {
+            this.value = '';
+        }
+    });
+    $(this).blur(function() {
+        if(this.value == '') {
+            this.value = default_value;
+        }
+    });
+	});
+    </script>
+    
+    
+    
+    </body>
+</html>
