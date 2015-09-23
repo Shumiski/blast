@@ -232,14 +232,14 @@ $comingText = $_POST["comingText"];
 												<td class="" width="40">&nbsp;</td>
 												<td class="" width="177"><a href="<?php echo $featured01Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured01Title ?></a></td>
 												<td class="" width="177"><a href="<?php echo $featured02Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured02Title ?></a></td>
-												<td class="" width="177" height=""><a href="<?php echo $featured03Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured03Title ?></a></td>
+												<td class="" width="177" height="80"><a href="<?php echo $featured03Link ?>" style="text-decoration:none;font-family:Arial, Helvetica, sans-serif;  color:#767676;" target="_blank"><?php echo $featured03Title ?></a></td>
 											</tr>
 											
 											<tr>
 												<td class="" width="40">&nbsp;</td>
-												<td class="" width="177"><a href="<?php echo $featured04Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb1", $featured04Link) ?>" style="display:block;" height="109" width="166"></a></td>
-												<td class="" width="177"><a href="<?php echo $featured05Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb1", $featured05Link) ?>" style="display:block;" height="109" width="166"></a></td>
-												<td class=""><a href="<?php echo $featured06Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb1", $featured06Link) ?>" style="display:block;" height="109" width="166"></a></td>
+												<td class="" width="177"><a href="<?php echo $featured04Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb4", $featured04Link) ?>" style="display:block;" height="109" width="166"></a></td>
+												<td class="" width="177"><a href="<?php echo $featured05Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb5", $featured05Link) ?>" style="display:block;" height="109" width="166"></a></td>
+												<td class=""><a href="<?php echo $featured06Link ?>" target="_blank"><img alt="Photo" src="<?php theThumb("c-thumb6", $featured06Link) ?>" style="display:block;" height="109" width="166"></a></td>
 											</tr>
 											<tr style="font-family:Arial; color: #3a9cd7; font-size: 11px; font-weight: 700;" height="42">
 												<td class="" width="40">&nbsp;</td>
